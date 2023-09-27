@@ -1,0 +1,102 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(211, 59, 59);
+}
+body .logo
+{
+    margin: 0px;
+    padding: 0px;
+    top: -35%;
+    right: 10%;
+    background: #fff;
+    height: 100px;
+    width: 20%;
+    border-radius: 5px;
+    position: relative;
+}
+body img
+{
+    height: 70px;
+    position: relative;
+    top: 17px ;
+    left: 22px;
+
+}
+.contenus
+{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+.contenus .titre
+{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+}
+.contenus .titre::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 30px;
+    background: red;
+}
+.contenus form .detail-utilisateur
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: none;
+}
+form .detail-utilisateur .input-box
+{
+width: calc(100% / 2 - 20px);
+margin: 20px 0 12px 0px;
+}
+.detail-utilisateur .input-box details
+{
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.detail-utilisateur .input-box input
+{
+    height: 45px;
+    width: 100%;
+}
+form .bouton
+{
+    height: 45px;
+    margin: 45px 0;
+}
+form .bouton input
+{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: red;
+}
+form .bouton input:hover
+{
+    background: black;
+}
